@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Bubbles&family=Spectral:ital,wght@0,300;0,500;1,400;1,800&family=Work+Sans:ital,wght@0,100;0,600;0,800;1,100&display=swap');
+
+
+
+body {
+    background-color: #03163d;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #002cf0;
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Bold';
+    margin: 50;
+    padding: 50;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenedor-header{
+    background: #830f0b;
+    position:center;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: aliceblue;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .3s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: rgb(4, 47, 126);
+}
+
+.inicio{
+    background: url("Banner.jpg");
+ background-size: cover;
+ height: 110vh;
+ color: #ffffff;
+ display: flex;
+ align-items: center;
+ 
+}
+.inicio .contenido-banner{
+    
+    padding: 5px; 
+    background-color: #03163d;
+    border:10px solid #0e0f53;
+    max-width: 385px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border:7px solid #0e0f53;
+    display:block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'Work Sans';
+}
+.inicio .contenido-banner h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.inicio .banner .redes a{
+    color:#d0d6da;
+    display: inline-block;
+    text-decoration: none;
+    width: 1%;
+    height: 30px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 50px;
+    transition: .10s;
+    margin-left: 80px;
+}
+
+
+.inicio .contenido-banner .redes a:hover{
+    background-color: #002cf0;
+    
+}
+
+.productos{ 
+    background-color: #830f0b;
+    color:#ffffff;
+    padding: 120px;
+    font-size: 20px;
+    text-align: justify;
+}
+.productos h2{ 
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.galeria{
+    margin:70px 30px;
+    box-shadow: 0 40px 8px 0 rgb(233, 67, 67), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+    float: left;
+    width: 300px;
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+
+.servicios{ 
+    background-color: #830f0b;
+    color:#ffffff;
+    padding: 120px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.container-form {
+    width: 80%; 
+    max-width: 1100px; 
+    margin: auto; 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 70px; 
+    margin-top: 01px;    
+}
+
+.container-form h2 {
+    margin-bottom:40px; 
+    font-size: 35px; 
+    color: #ffffff;
+}
+
+.container-form p {
+    font-size: 17px; 
+    line-height: 1.6; 
+    margin-bottom: 30px; 
+}
+
+
+.container-form a {
+    font-size: 17px; 
+    display: inline-block;
+    text-decoration: none; 
+    width: 100%; 
+    margin-bottom: 35px; 
+    color: #ffffff; 
+    font-weight: 900; 
+}
+
+.container-form a i {
+    color: #ffffff; 
+    margin-right: 50px; 
+}
+
+
+.container-form form .campo,
+.container-form form textarea {
+    width: 100%; 
+    padding: 15px 10px; 
+    font-size: px; 
+    border: 1px solid #ffffff; 
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0; 
+}
+
+
+.container-form form textarea {
+    max-width: 530px; 
+    min-width: 530px; 
+    min-height: 140px; 
+    max-height: 150px; 
+}
+
+
+.container-form .btn-enviar {
+    padding: 10px; 
+    font-size: 16px;
+    border: none; 
+    outline: 0; 
+    background: #ffffff; 
+    color: rgb(78, 4, 4); 
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: all 700ms ease;
+    margin-bottom: 10%;
+}
+
+
+.container-form .btn-enviar:hover {
+    background: #161f3b; 
+}
+.reflexion{ 
+    background-color: #000000;
+    color:#ffffff;
+    padding: 100px;
+    font-size: 20px;
+    text-align: justify;
+}
+.reflexion h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.reflexion p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 1px;
+}
+
+
+
